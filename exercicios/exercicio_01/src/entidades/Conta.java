@@ -1,7 +1,7 @@
 package entidades;
 
 public class Conta {
-    double saldo;
+    private double saldo;
 
     public double getSaldo() {
         return this.saldo;
