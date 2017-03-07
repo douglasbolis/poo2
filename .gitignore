@@ -1,6 +1,8 @@
-/**/nbproject/**
+/**/nbproject
+/**/build
+/**/*test*
 /**/*.class
 poo2_prof
 /exercicios/ImagemMetodoFabrica/build/
 /exercicios/ImagemMetodoFabrica/dist/
-/exercicios/imagemMetodoFabrica/build/
+/**/link_exercicio.txt
