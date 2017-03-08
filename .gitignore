@@ -1,8 +1,16 @@
+## arquivos da IDE
+# netbeans
 /**/nbproject
 /**/build
+/**/build.xml
+/**/manifest.mf
 /**/*test*
+
+# case haja algum arquivo .class
 /**/*.class
+
+# exemplos do professor utilizados em sala de aula
 poo2_prof
-/exercicios/ImagemMetodoFabrica/build/
-/exercicios/ImagemMetodoFabrica/dist/
+
+# link do exercício no github
 /**/link_exercicio.txt
