@@ -6,6 +6,6 @@ package fabrica;
  */
 public class PizzaFactory {
     public static void main(String[] args) {
-        IPizza pizza;
+        Pizza pizza;
     }
 }

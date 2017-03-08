@@ -4,8 +4,8 @@ package fabrica;
  *
  * @author douglas
  */
-public class ClamPizza implements IPizza {
-    private static String sabor = "pizza de frutos do mar";
+public class CheesePizza extends Pizza {
+    private static String sabor = "pizza de queijo";
     @Override
     public void bake() {
         System.out.println("Assando " + this.sabor);

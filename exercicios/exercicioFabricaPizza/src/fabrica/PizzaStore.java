@@ -5,7 +5,7 @@ package fabrica;
  * @author douglas
  */
 public class PizzaStore {
-    public IPizza orderPizza() {
+    public Pizza orderPizza() {
         return null;
     }
 }

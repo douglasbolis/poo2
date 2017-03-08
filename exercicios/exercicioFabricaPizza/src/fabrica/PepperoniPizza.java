@@ -4,8 +4,8 @@ package fabrica;
  *
  * @author douglas
  */
-public class VeggiePizza implements IPizza {
-    private static String sabor = "pizza vegetariana";
+public class PepperoniPizza extends Pizza {
+    private static String sabor = "pizza de pepperoni";
     @Override
     public void bake() {
         System.out.println("Assando " + this.sabor);
