@@ -1,4 +1,4 @@
-package fabrica;
+package builder;
 
 /**
  *
@@ -6,7 +6,7 @@ package fabrica;
  */
 public class Refrigerante extends Bebida {
     public Refrigerante(String sabor) {
-        System.out.println("cria refrigerante com sabor:" + sabor);
+        System.out.println("Cria refrigerante com sabor: " + sabor);
         this.setSabor(sabor);
     }
 }

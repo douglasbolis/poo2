@@ -1,4 +1,4 @@
-package fabrica;
+package builder;
 
 /**
  *
@@ -10,7 +10,7 @@ public class NonVegetarianoBuilder extends RefeicaoBuilder {
     }
 
     public void prepadaHamburgerCarne() {
-        System.out.println("cria hamburger carne");
+        System.out.println("Cria hamburger de carne");
         this.refeicao.setHamburger(new HamburgerCarne());
     }
 }

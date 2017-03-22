@@ -1,4 +1,4 @@
-package fabrica;
+package builder;
 
 /**
  *
@@ -10,7 +10,7 @@ public class VegetarianoBuilder extends RefeicaoBuilder {
     }
 
     public void preparaHamburgerVegetariano() {
-        System.out.println("cria hamburger vegetariano");
+        System.out.println("Cria hamburger vegetariano");
         this.refeicao.setHamburger(new HamburgerVegetariano());
     }
 }
