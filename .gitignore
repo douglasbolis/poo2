@@ -5,6 +5,7 @@
 /**/build.xml
 /**/manifest.mf
 /**/*test*
+/**/lib
 
 # case haja algum arquivo .class
 /**/*.class
