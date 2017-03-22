@@ -16,11 +16,11 @@ public class Main {
     public static void main(String[] args) {
         DiretorRefeicao criaRefeicao = new DiretorRefeicao();
 
-        System.out.println("Refeição não vegetariana: ");
+        System.out.println("\nRefeição não vegetariana: ");
         Refeicao refeicao1 = criaRefeicao.preparaNaoVegetariana("laranja", "suco", false);
         refeicoes.put("laranja/suco" , refeicao1 );
 
-        System.out.println("Refeição vegetariana: ");
+        System.out.println("\nRefeição vegetariana: ");
         Refeicao refeicao2 = criaRefeicao.preparaVegetariana("uva", "refrigerante", true);
         refeicoes.put("guarana/refrigerante" , refeicao2 );
 
