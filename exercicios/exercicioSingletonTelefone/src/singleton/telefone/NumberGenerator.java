@@ -7,7 +7,7 @@ package singleton.telefone;
 public enum NumberGenerator {
     NUMERO;
 
-    private int count;
+    private int count = 998000000;
 
     public synchronized int geraNumero() {
         return ++count;

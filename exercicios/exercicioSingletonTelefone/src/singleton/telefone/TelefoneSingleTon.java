@@ -6,7 +6,7 @@ package singleton.telefone;
  */
 public class TelefoneSingleTon implements Runnable {
     public void run() {
-        System.out.println("Número gerado: " + NumberGenerator.NUMERO.geraNumero());
+        System.out.println(NumberGenerator.NUMERO.geraNumero());
     }
 }   
       
