@@ -31,7 +31,7 @@ public class FlyweightImage {
             if(imageName.length() > 50 ){
                 return;
             }
-            OutputStream os = new FileOutputStream("c:\\images\\"+imageName);
+            OutputStream os = new FileOutputStream("/tmp/"+imageName);
             byte[] buf = new byte[1024];
             int len;
             while ((len = image.read(buf)) > 0) {
