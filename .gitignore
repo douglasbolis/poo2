@@ -6,6 +6,7 @@
 /**/manifest.mf
 /**/*test*
 /**/lib
+/**/dist
 
 # case haja algum arquivo .class
 /**/*.class
