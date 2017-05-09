@@ -6,6 +6,6 @@ import java.util.ArrayList;
  *
  * @author douglas
  */
-interface InterfaceAtm {
-    ArrayList< Integer > executarSaque( Integer numero );
+public interface InterfaceAtm {
+    ArrayList< QtdCedula > executarSaque( Integer numero );
 }

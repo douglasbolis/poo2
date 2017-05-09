@@ -10,13 +10,13 @@ public class Usuario implements InterfaceAtm {
     private String name;
     private Integer money;
     private Atm atm;
-    
+
     public Usuario( String name ) {
         this.setName( name );
         this.setAtm( new Atm() );
     }
-    
-    public ArrayList< Integer > executarSaque( Integer numero ) {
+
+    public ArrayList< QtdCedula > executarSaque( Integer numero ) {
         return atm.executarSaque( numero );
     }
 
