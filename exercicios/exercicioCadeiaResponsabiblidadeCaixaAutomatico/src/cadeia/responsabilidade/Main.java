@@ -1,10 +1,7 @@
 package cadeia.responsabilidade;
 
-import cadeia.responsabilidade.caixa.QtdCedula;
-import cadeia.responsabilidade.caixa.Usuario;
-import cadeia.responsabilidade.fronteira.Entrada;
-import cadeia.responsabilidade.fronteira.Saida;
-import java.util.ArrayList;
+import cadeia.responsabilidade.caixa.*;
+import cadeia.responsabilidade.fronteira.*;
 
 /**
  *
@@ -12,17 +9,26 @@ import java.util.ArrayList;
  */
 public class Main {
     public static void main( String[] args ) {
-        Usuario user = new Usuario( "João" );
+        String name = "João";
         Integer valorSaque;
-        ArrayList< QtdCedula > cedulas;
+
+        AtmHandler c100 = new Cash100Handler( 100 );
+        AtmHandler c50 = new Cash50Handler( 50 );
+        AtmHandler c20 = new Cash20Handler( 20 );
+        AtmHandler c10 = new Cash10Handler( 10 );
+        AtmHandler c5 = new Cash5Handler( 5 );
+        AtmHandler c2 = new Cash2Handler( 2 );
+
+        c100.setNextHandler( c50 );
+        c50.setNextHandler( c20 );
+        c20.setNextHandler( c10 );
+        c10.setNextHandler( c5 );
+        c5.setNextHandler( c2 );
 
         valorSaque = Entrada.leInt( "Qual o valor do saque?" );
-        cedulas = user.executarSaque( valorSaque );
 
-        Saida.println( "Usuário " + user.getName() );
-        Saida.println( "Sacou:" );
-        for ( QtdCedula obj : cedulas ) {
-            Saida.println( obj.getQtd() + " nota(s) de R$ " + obj.getCedula() + ",00." );
-        }
+        c100.processHandler( valorSaque );
+
+        Saida.println( name + " sacou:" );
     }
 }
