@@ -25,7 +25,7 @@ public class Main {
         c10.setNextHandler( c5 );
         c5.setNextHandler( c2 );
 
-        valorSaque = Entrada.leInt( "Qual o valor do saque?" );
+        valorSaque = Entrada.leInt( "Qual o valor do saque? " );
         
         Saida.println( name + " sacou:" );
         c100.processHandler( valorSaque );
