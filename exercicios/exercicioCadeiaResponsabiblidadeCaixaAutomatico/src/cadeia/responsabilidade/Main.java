@@ -12,12 +12,12 @@ public class Main {
         String name = "João";
         Integer valorSaque;
 
-        AtmHandler c100 = new Cash100Handler( 100 );
-        AtmHandler c50 = new Cash50Handler( 50 );
-        AtmHandler c20 = new Cash20Handler( 20 );
-        AtmHandler c10 = new Cash10Handler( 10 );
-        AtmHandler c5 = new Cash5Handler( 5 );
-        AtmHandler c2 = new Cash2Handler( 2 );
+        AtmHandler c100 = new Cash100Handler();
+        AtmHandler c50 = new Cash50Handler();
+        AtmHandler c20 = new Cash20Handler();
+        AtmHandler c10 = new Cash10Handler();
+        AtmHandler c5 = new Cash5Handler();
+        AtmHandler c2 = new Cash2Handler();
 
         c100.setNextHandler( c50 );
         c50.setNextHandler( c20 );
@@ -26,8 +26,12 @@ public class Main {
         c5.setNextHandler( c2 );
 
         valorSaque = Entrada.leInt( "Qual o valor do saque? " );
-        
-        Saida.println( name + " sacou:" );
-        c100.processHandler( valorSaque );
+
+        if ( valorSaque == 0 || valorSaque == 1 || valorSaque == 3 ) {
+            Saida.println( "Impossível sacar R$ " + valorSaque + ",00 com as notas disponíveis." );
+        } else {
+            Saida.println( name + " sacou:" );
+            c100.processHandler( valorSaque );
+        }
     }
 }

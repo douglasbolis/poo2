@@ -7,8 +7,8 @@ import cadeia.responsabilidade.fronteira.Saida;
  * @author douglas
  */
 public class Cash20Handler extends AbstractAtmHandler {
-    public Cash20Handler( Integer valueCedula ) {
-        this.valueCedula = valueCedula;
+    public Cash20Handler() {
+        this.valueCedula = 20;
     }
 
     public void handleHere( Integer qtdCedulas ) {

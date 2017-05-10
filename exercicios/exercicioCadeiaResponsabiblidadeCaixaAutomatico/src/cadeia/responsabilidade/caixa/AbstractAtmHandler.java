@@ -12,7 +12,11 @@ public abstract class AbstractAtmHandler implements AtmHandler {
         Integer qtdCedula = cash / valueCedula;
         Integer restante = cash % valueCedula;
 
-        if ( qtdCedula != 0 ) {
+        if ( ( restante % 2 != 0 ) && ( restante < 4 ) ) {
+            qtdCedula--;
+            restante += valueCedula;
+        }
+        if ( qtdCedula > 0 ) {
             handleHere( qtdCedula );
         }
         if ( nextHandler != null ) {
