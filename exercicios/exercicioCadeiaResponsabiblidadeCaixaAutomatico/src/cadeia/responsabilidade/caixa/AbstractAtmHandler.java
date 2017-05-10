@@ -10,12 +10,13 @@ public abstract class AbstractAtmHandler implements AtmHandler {
     
     public void processHandler( Integer cash ) {
         Integer qtdCedula = cash / valueCedula;
+        Integer restante = cash % valueCedula;
 
         if ( qtdCedula == 0 ) {
             handleHere( qtdCedula );
         } else {
             //  if ( nextHandler == null )
-            nextHandler.processHandler( cash % valueCedula );
+            nextHandler.processHandler( restante );
         }
     }
 
