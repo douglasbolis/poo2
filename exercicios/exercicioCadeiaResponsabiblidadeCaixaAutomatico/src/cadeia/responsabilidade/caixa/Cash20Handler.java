@@ -12,6 +12,6 @@ public class Cash20Handler extends AbstractAtmHandler {
     }
 
     public void handleHere( Integer qtdCedulas ) {
-        Saida.println( qtdCedulas + " nota(s) de R$ 20,00." );
+        Saida.println( " - " + qtdCedulas + " nota(s) de R$ 20,00." );
     }
 }
