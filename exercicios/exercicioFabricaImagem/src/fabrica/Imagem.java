@@ -1,3 +1,0 @@
-package fabrica;
-
-class Imagem { }
