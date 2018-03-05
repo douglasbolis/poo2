@@ -1,4 +1,4 @@
-package metodoestatico.fabrica;
+package fabrica;
 
 public class MetodoFabrica {
 	public static void main( String[] args ) {
@@ -17,7 +17,3 @@ public class MetodoFabrica {
 		formato.gerar();
 	}    
 }
-
-
-
-

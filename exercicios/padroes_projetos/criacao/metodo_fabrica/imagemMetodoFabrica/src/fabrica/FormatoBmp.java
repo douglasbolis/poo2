@@ -1,4 +1,4 @@
-package metodoestatico.fabrica;
+package fabrica;
 
 public class FormatoBmp implements IFormato {
 	@Override

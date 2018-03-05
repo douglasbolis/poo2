@@ -1,4 +1,4 @@
-package metodoestatico.fabrica;
+package fabrica;
 
 public class FabricaFormato {
 	public static IFormato gerarFormato ( String formato ) {
