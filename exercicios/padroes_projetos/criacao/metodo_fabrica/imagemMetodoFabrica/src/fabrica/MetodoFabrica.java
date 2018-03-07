@@ -15,5 +15,5 @@ public class MetodoFabrica {
 
 		formato = FabricaFormato.gerarFormato( "png" );
 		formato.gerar();
-	}    
+	}
 }
