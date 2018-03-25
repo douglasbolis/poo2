@@ -1,0 +1,36 @@
+Tema: Gerência de estacionamentos.
+Assuntos: Parquímetros, estacionamentos, cancelas.
+Modalidades: Rotativo e não-rotativo.
+Veículos: Motos e carros.
+
+Tópicos:
+Sistema:
+========- Gerir estacionamentos de forma mais simples.
+========- Adiciona os locais dos parquímetros e estacionamentos.
+========- Parquímetros e estacionamentos com interação do usuário via aplicativo(liberação de cancelas).
+========- Localizar vagas disponíveis.
+========- Define os planos para utilização dos estacionamentos.
+========- Possibilidade de se estender o tempo estacionado via aplicativo(vai ficar mais tempo que previsto).
+========- Relatórios de uso dos estacionamentos.
+Usuário:
+========- Utiliza os estacionamentos em sua região.
+========- Adiciona os veículos que utiliza(liberação de uso nos estacionamentos).
+========- Busca vagas disponíveis próximo de seu destino.
+========- Reserva de vagas(máximo 30min).
+========- Utiliza os estacionamentos de acordo com o plano escolhido.
+========- Possibilidade de adição de créditos em sua conta.
+- Visualização do histórico de utilização dos estacionamentos.
+
+Muitos motoristas que utilizam as vias da cidade ficam dando voltas e voltas nos quarteirões da cidade procurando uma vaga para estacionar e diversas vezes acabam estacionando em locais proibidos infrigindo leis porque estão gastando mais tempo para estacionar do que realizando algo que queriam realmente.
+
+Para facilitar a resolução desses problemas e o motorista podendo estacionar com maior rapidez, para a realização de seus objetivos em seus destinos, é termos um sistema cujo objetivo é realizar o gerenciamento de estacionamentos por parte do administratido e buscar uma vaga com maior rapidez por parte do usuário.
+
+O administrativo do sistema cadastra os locais de estacionamentos(com parquímetros ou não), quantidade de vagas no local e informa os planos para os motoristas utilizarem os locais estacionamentos. Os usuários(motoristas) se cadastram no sistema e cadastram seus veículos(moto ou carro) e a partir daí podem utilizar os locais de estacionamentos selecionando e assinando um dos planos disponíveis.
+
+Na plataforma administrativa além do gerenciamento dos estacionamentos pode-se gerar relatórios de uso dos locais de estacionamento com data/horáio de maior e menor uso, lucros obtidos em determinada região/local com estacionamento e tempo médio de veículos estacionados com o intuito de ajudar nas tomadas de decisões para aplicar possíveis eventos promocionais.
+
+Para a utilização do sistema por parte dos motoristas será desenvolvido um aplicativo mobile para se ter maior usabilidade e praticidade na hora da pesquisa de locais disponíveis para se estacionar e reserva da vaga desejada em seu destino. A reserva da vaga poderá ser feita por até 30 minutos e após esse tempo a mesma ficará disponível para os outros motoristas. Também será possível estender o tempo de utilização em estacionamentos rotativos, mas essa opção só estará disponível com no máximo 60 minutos do fim de uso da vaga.
+
+O uso dos estacionamentos se será permitido via assinatura de um dos planos disponíveis, mas em locais com parquímetros e que o plano não cubra os usuários poderão adicionar créditos avulsos para a utilização dos mesmos. E nesse caso o usuário deverá informar o tempo previsto de uso mas não poderá estender o tempo e se sair antes do tempo não terá o tempo que não usou de volta.
+
+O valor dos planos e créditos avulsos serão pagos via aplicativo nas formas de pagamento com cartão de crédito primariamente e futuramente podendo ser adicionado uma outra forma de pagamento com debito em conta ou cartão de débito. Os planos poderão ser parcelados caso o usuário deseje, o número de parcelas estará disponível na descrição do plano.
