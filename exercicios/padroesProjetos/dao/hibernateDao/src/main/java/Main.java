@@ -41,7 +41,7 @@ public class Main {
     usuario.setSenha( "asd123" );
     
     usuarioDAO.inserir( usuario );
-    Usuario buscaUsuario = usuarioDAO.buscaUsuarioPorNomeESenha( "douglas", "asd123" );
+    Usuario buscaUsuario = usuarioDAO.buscaUsuarioPorNomeESenha( usuario.getNome(), usuario.getSenha() );
     System.out.println( "Usuário encontrado:\nnome: " + buscaUsuario.getNome() + "\nemail: " + buscaUsuario.getEmail() );
   }
 }
