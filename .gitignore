@@ -1,13 +1,3 @@
-## arquivos da IDE
-# netbeans
-/**/nbproject
-/**/build
-/**/build.xml
-/**/manifest.mf
-/**/*test*
-/**/lib
-/**/dist
-
 # case haja algum arquivo .class
 /**/*.class
 
@@ -19,7 +9,7 @@ poo2_exemplos
 /**/link_exercicio.txt
 
 # repositório dos trabalhos
-trabalho
+trabalhos
 
 # arquivos .zip
 /**/*.zip
