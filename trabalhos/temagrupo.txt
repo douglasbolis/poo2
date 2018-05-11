@@ -1,3 +1,0 @@
-Grupo: Douglas Bolis Lima
-Projeto: Vida de Turista
-Descrição: Sistema de controle de viagens.
