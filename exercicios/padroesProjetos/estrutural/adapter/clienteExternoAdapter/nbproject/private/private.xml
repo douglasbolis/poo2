@@ -4,9 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/douglas/IFES/ifes_bsi/5_periodo/poo2/exercicios/padroesProjetos/estrutural/AdapterCliente/src/adaptercliente/visao/VisaoCliente.java</file>
+            <file>file:/home/douglas/IFES/ifes_bsi/5_periodo/poo2/exercicios/padroesProjetos/estrutural/AdapterCliente/diagrama/diagramaClasses.png</file>
             <file>file:/home/douglas/IFES/ifes_bsi/5_periodo/poo2/exercicios/padroesProjetos/estrutural/AdapterCliente/src/adaptercliente/Main.java</file>
             <file>file:/home/douglas/IFES/ifes_bsi/5_periodo/poo2/exercicios/padroesProjetos/estrutural/AdapterCliente/src/adaptercliente/clienteexterno/AdapterClienteExterno.java</file>
             <file>file:/home/douglas/IFES/ifes_bsi/5_periodo/poo2/exercicios/padroesProjetos/estrutural/AdapterCliente/src/adaptercliente/MainComAdapter.java</file>
+            <file>file:/home/douglas/IFES/ifes_bsi/5_periodo/poo2/exercicios/padroesProjetos/estrutural/AdapterCliente/src/adaptercliente/model/ICliente.java</file>
         </group>
     </open-files>
 </project-private>
