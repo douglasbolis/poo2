@@ -13,3 +13,6 @@ trabalho
 
 # arquivos .zip
 /**/*.zip
+/exercicios/padroesProjetos/comportamental/state/semaforoState/nbproject/private/
+/exercicios/padroesProjetos/comportamental/state/semaforoState/build/
+/exercicios/padroesProjetos/comportamental/state/semaforoState/dist/
