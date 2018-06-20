@@ -13,9 +13,9 @@ import state.TelaSemaforo;
  */
 public class SemaforoSetup {
 
-    final int timeVerde = 3000;
+    final int timeVerde = 60000;
     final int timeAmarelo = 3000;
-    final int timeVermelho = 3000;
+    final int timeVermelho = 30000;
     SemaforoState currentState;
     SemaforoState verdeState;
     SemaforoState amareloState;
@@ -33,10 +33,6 @@ public class SemaforoSetup {
         
         // Estado inicial
         this.currentState = verdeState;
-    }
-    
-    public void setState ( SemaforoState state ) {
-        this.currentState = state;
     }
 
     public SemaforoState getCurrentState () {
